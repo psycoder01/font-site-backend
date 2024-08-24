@@ -41,6 +41,7 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc --build",
     "open-docs": "open-cli doc/index.html",
-    "generate-docs": "apidoc -e node_modules -e .history -e doc && yarn run open-docs"
+    "generate-docs": "apidoc -i src/ ",
+    "generate-docs-prod": "apidoc -i src/ -o dist/doc"
   }
 }

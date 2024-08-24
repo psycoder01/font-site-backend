@@ -1,0 +1,10 @@
+{
+  "name": "Font Site Backend",
+  "version": "1.0.0",
+  "description": "",
+  "title": "Font Site",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
